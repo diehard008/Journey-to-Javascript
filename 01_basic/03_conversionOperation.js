@@ -45,7 +45,16 @@ let score = undefined
 // "33sjf" => NaN
 // true = 1, false = 0
 
-let isLoggedIn = 1//1 is true,
+// let isLoggedIn = 1  //1 is true, 0 is false
+// let isLoggedIn = ""  // "" =>false
+let isLoggedIn = "Deepak"  //"Deepak" => true
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+ let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn)
+
+let someNumber = 33
+ let stringNumber = String(someNumber)
+
+ console.log(stringNumber)
+ console.log(typeof(stringNumber))
+//  thus ,this will convert Number to String
