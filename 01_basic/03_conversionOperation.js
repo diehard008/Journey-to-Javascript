@@ -10,15 +10,42 @@ let userPass="333"
 let valueInNumber = Number(userPass)
 // console.log(typeof(valueInNumber)) 
 
-console.log(valueInNumber)
+// console.log(valueInNumber)
 // 2.
 let userPass2="333abc"
 
-console.log(typeof(userPass2))
+// console.log(typeof(userPass2))
 
 let valueInNumber2 = Number(userPass2)
-console.log(typeof(valueInNumber2))
-console.log(valueInNumber2)//the output is Nan so its not reliable to always
+// console.log(typeof(valueInNumber2))
+// console.log(valueInNumber2)//the output is Nan so its not reliable to always
 //Sometime values convert if things are right sometime don't
 
- 
+// let score = null
+// console.log(score)
+// console.log(typeof(score))
+// //converting to number
+
+// let valueInNumber3 = Number(score)
+// console.log(valueInNumber3)
+// console.log(typeof(valueInNumber3))
+
+let score = undefined
+// console.log(score)
+// console.log(typeof(score))
+// //converting to number
+
+// let valueInNumber3 = Number(score)
+// console.log(valueInNumber3)
+// console.log(typeof(valueInNumber3))
+
+
+// Notes
+// "33" => 33
+// "33sjf" => NaN
+// true = 1, false = 0
+
+let isLoggedIn = 1//1 is true,
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn)
