@@ -4,7 +4,7 @@
 // code should be redable and east to understand
 // // TC39,MDN - this are the documentation to study and understand codes
 
-/*Types
+// /Types
 // Strings -"abcd",'abcd'
 // Numbers - 12445
 // boolean - true,false
@@ -12,4 +12,5 @@
 // null - Javascript look this as object.Its a Standalone value
 //  undefined - It has no vaulue but has variable or the given variable value has been not set
 //  Symbol - Define individual component (unique)
-//  object 
+//  object
+// Nan

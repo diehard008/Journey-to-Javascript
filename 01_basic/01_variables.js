@@ -4,7 +4,7 @@ let accountEmail = "Sampal.02@gmail.com"
 var accountPassword = "1234"
 accountCity = "jaipur"
 let accountState;
-//console.log(accountId);
+console.log(accountId);
 // console.log(accountState);
 // console.table([accountId,accountEmail,accountPassword,accountCity]);
 
